@@ -12,3 +12,6 @@
       my_wallet.check_balance()
 
       # TODO for teammates: Add a deposit function below!
+ def deposit(self, amount):
+     self.balance += amount
+     print(f"Deposited ${amount}.New balance: ${self.balance}")
